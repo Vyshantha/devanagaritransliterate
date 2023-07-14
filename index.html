@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Devanāgarī Transliterator : देवनागरी - [ˌdeɪvəˈnɑːɡəri]</title>
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Devanāgarī - देवनागरी Transliterator" />
+    <meta property="og:image"              content="Emblem_of_India.png" />
+    <meta property="og:description"        content="Devanāgarī Bhārat India देवनागरी : [ˌdeɪvəˈnɑːɡəri]" data-qmeta="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="Emblem_of_India.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans Devanagari' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <table class="tab">
+          <tr>
+            <td class="widthOfTab ">
+              <button class="tablinks" onclick="openTab(event, 'Latin')" id="defaultOpen">Devanāgarī [ˌdeɪvəˈnɑːɡəri]</button>
+            </td>
+            <td class="widthOfTab textDevanagari alignIcon">
+              <span class="tablinks devanagariTab">देवनागरी</span>
+            </td>
+          </tr>
+        </table>
+        <div class="text-input">
+          <div id="Latin" class="tabcontent currentTab">
+            <textarea spellcheck="false" id="textarea1" class="from-text" placeholder="Devanāgarī(Latin) &#10;&#10;  ellā mānavarū svataṇtrarāgiyē huṭṭiddāre. hāgū ghanate mattu adhikāragaḷalli samānarāgiddāre.  &#10;&#10;  tiḷivu mattu aṇtaḥkaraṇagaḷannu paḍedavarāddariṇda, avaru obbarigobbaru sahōdara bhāvadiṇda naḍedukoḷḷabēku. " onkeyup="transliterate()"></textarea>
+          </div>
+          <div id="Devanagari" class="devanagariTabText">
+            <textarea spellcheck="false" id="textarea2" readonly class="to-text" placeholder="देवनागरी लिपि &#10;&#10;  ಎಲ್ಲಾ ಮಾನವರೂ ಸ್ವತಂತ್ರರಾಗಿಯೇ ಹುಟ್ಟಿದ್ದಾರೆ. ಹಾಗೂ ಘನತೆ ಮತ್ತು ಅಧಿಕಾರಗಳಲ್ಲಿ ಸಮಾನರಾಗಿದ್ದಾರೆ. &#10;&#10;  ತಿಳಿವು ಮತ್ತು ಅಂತಃಕರಣಗಳನ್ನು ಪಡೆದವರಾದ್ದರಿಂದ, ಅವರು ಒಬ್ಬರಿಗೊಬ್ಬರು ಸಹೋದರ ಭಾವದಿಂದ ನಡೆದುಕೊಳ್ಳಬೇಕು." dir="ltr" onkeyup="transliterate()"></textarea>
+          </div>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons tooltip" onmousedown="show1()">
+              <i id="from" class="fas fa-copy" onclick="copyContent1()"></i>
+              <div id="tooltip1" onmouseout="hide()" class="tooltiptext">
+                <span class="latinCopyText">Copy Transliteration text - Devanāgarī</span>
+              </div>
+            </div>
+          </li>
+          <li class="exchange">
+            <i class="fas fa-exchange-alt" onclick="swapTransliteration()"></i>
+          </li>
+          <li class="row to">
+            <div class="icons tooltip" onmousedown="show2()">
+              <i id="to" class="fas fa-copy" onclick="copyContent2()"></i>
+              <div id="tooltip2" onmouseout="hide()" class="tooltiptext">
+                <span class="textDevanagari">पाठस्य प्रतिलिपिं कुर्वन्तु - देवनागरी</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button onclick="transliterate()"><span class="footerLatin">Devanagari [ˌdeɪvəˈnɑːɡəri]</span> | <span class="footerDevanagari">देवनागरी</span></button>
+    </div>
+    
+    <div class="footerOfPage">
+      &nbsp;&nbsp;&nbsp;<img src="Flag_of_India.png" alt="देवनागरी - World Scripts Explorer" class="footerImage" height="19px" width="32px"/>&nbsp;&nbsp;&nbsp;<a href="https://worldscriptsexplorer.page/sa" target="_blank">देवनागरी</a>&nbsp;&nbsp;&nbsp;2023 yshant&nbsp;&nbsp;&nbsp;
+    </div>
+    <script src="transliterate.js"></script>
+  </body>
+</html>
