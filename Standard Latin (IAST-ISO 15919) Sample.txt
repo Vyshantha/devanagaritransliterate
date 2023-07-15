@@ -36,7 +36,6 @@ va vā vi vī vu vū vr̥ vr̥̄ ve vē vai vo vō vau vaṁ vaḥ v
 ṣa ṣā ṣi ṣī ṣu ṣū ṣr̥ ṣr̥̄ ṣe ṣē ṣai ṣo ṣō ṣau ṣaṁ ṣaḥ ṣ
 sa sā si sī su sū sr̥ sr̥̄ se sē sai so sō sau saṁ saḥ s
 ha hā hi hī hu hū hr̥ hr̥̄ he hē hai ho hō hau haṁ haḥ h
-ḷa ḷā ḷi ḷī ḷu ḷū ḷr̥ ḷr̥̄ ḷe ḷē ḷai ḷo ḷō ḷau ḷaṁ ḷaḥ ḷ
 
 anākṣara : 
     kka khkha gga ghgha ṅṅa
@@ -44,13 +43,16 @@ anākṣara :
     ṭṭa ṭhṭha ḍḍa ḍhḍha ṇṇa
     tta ththa dda dhdha nna
     ppa phpha bba bhbha mma
-    yya rra lla vva śśa ṣṣa ssa hha ḷḷa
+    yya rra lla vva śśa ṣṣa ssa hha 
     jña kṣa śra 
 
 Saṃskṛta Sanskrit Samskr̥ta Saṃskṛtam Prākṛta : ōm̐ brāmhaṇa Mahābhārata Rāmāyaṇa Śiva Sāmaveda Veda Upaniṣad Āgama Bhagavad·Gītā
 Aṣṭādhyāyī Gaṇa·pāṭha Pada·pāṭha Vārttikas Mahābhāṣya Vākya·padīya Phiṭ·sūtra 
-Dharma·sūtras Raghu·vaṃśa Kumāra·sambhava  
-Āyurveda Suśruta·saṃhitā Caraka·saṃhitā
+Dharma·sūtras Raghu·vaṃśa Kumāra·sambhava Āyurveda Suśruta·saṃhitā Caraka·saṃhitā
 Kalpa Jyotiṣa Gaṇita Śulba·sūtras Siddhāntas Āryabhaṭīya Daśa·gītikā·sutra Siddhānta·śiromaṇi Gaṇita·sāra·saṅgraha Bīja·gaṇita
-Kāma·sūtra Pañca·sāyaka Rati·rahasya Rati·mañjari Anaṅga·ranga
-Subhāṣitas Nīti·śataka Bodhicary'âvatāra Śr̥ṅgāra·jñāna·nirṇaya Kalā·vilāsa Catur·varga·saṅgraha Nīti·mañjari Mugdh'ôpadeśa Subhāṣita·ratna·sandoha  Śr̥ṅgāra·vairāgya·taraṅgiṇī Nāṭya Sangīta Kāvya Purāṇas Darśana Sāṅkhya Yoga Nyāya Vaiśeṣika Mīmāṅsa Vedānta Vaishnavism Shaivism Shaktism Smārta Tattvārtha Br̥hat Gr̥hya Kr̥ṣi Sūtra Mahāpurāṇa Tripiṭaka
+Kāma·sūtra Pañca·sāyaka Rati·rahasya Rati·mañjari Anaṅga·ranga Br̥hat Gr̥hya Kr̥ṣi Sūtra Mahāpurāṇa Tripiṭaka
+Subhāṣitas Nīti·śataka Bodhicary'âvatāra Śr̥ṅgāra·jñāna·nirṇaya Kalā·vilāsa Catur·varga·saṅgraha Nīti·mañjari Mugdh'ôpadeśa Subhāṣita·ratna·sandoha  Śr̥ṅgāra·vairāgya·taraṅgiṇī Nāṭya Sangīta Kāvya Purāṇas Darśana Sāṅkhya Yoga Nyāya Vaiśeṣika Mīmāṅsa Vedānta Vaishnavism Shaivism Shaktism Smārta Tattvārtha 
+
+śrīmūlasaṅgha dēśigaṇa pustakagaccha koṇḍakundānvayake siddhānta ca kravartti nayakīrtimunīśvarō bhāti || 
+taccheṣyōttamabāḷecandramunipa śrīsādanadmapriyā sarvvōrvvīnutacandramauḷisacivasyārddāṅgalakṣmīri 
+yaṁ ācāmbā rajatādri hāraharahāsōdyadyaśōmañjarīpuñjībhūta jagattrayā jinagr̥haṁ bhaktyā mudā kārayat || 
