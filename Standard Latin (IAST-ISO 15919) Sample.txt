@@ -1,46 +1,44 @@
 varṇamāle -
-svara akṣara : a ā i ī u ū r̥ r̥̄ l̥ l̥̄ e ē ai o ō au aṃ aḥ
-           ā  i  ī  u  ū  r̥  r̥̄  l̥  l̥̄   e  ē  ai  o  ō  au   ṃ   ḥ 
+svara akṣara : a ā  i  ī  u  ū r̥ r̥̄ l̥ l̥̄ e  ē ai  o  ō au  aṁ  aḥ
+           ā  i  ī  u  ū  r̥  r̥̄  l̥  l̥̄   e  ē  ai  o  ō  au   ṁ   ḥ 
 
 vyañjana akṣara: 
-ka kā ki kī ku kū kr̥ kr̥̄ ke kē kai ko kō kau kaṃ kaḥ k
-kha khā khi khī khu khū khr̥ khr̥̄ khe khē khai kho khō khau khaṃ khaḥ kh
-ga gā gi gī gu gū gr̥ gr̥̄ ge gē gai go gō gau gaṃ gaḥ g
-gha ghā ghi ghī ghu ghū ghr̥ ghr̥̄ ghe ghē ghai gho ghō ghau ghaṃ ghaḥ gh
-ṅa ṅā ṅi ṅī ṅu ṅū ṅr̥ ṅr̥̄ ṅe ṅē ṅai ṅo ṅō ṅau ṅaṃ ṅaḥ ṅ
-ca cā ci cī cu cū cr̥ cr̥̄ ce cē cai co cō cau caṃ caḥ c
-cha chā chi chī chu chū chr̥ chr̥̄ che chē chai cho chō chau chaṃ chaḥ ch
-ja jā ji jī ju jū jr̥ jr̥̄ je jē jai jo jō jau jaṃ jaḥ j
-jha jhā jhi jhī jhu jhū jhr̥ jhr̥̄ jhe jhē jhai jho jhō jhau jhaṃ jhaḥ jh
-ña ñā ñi ñī ñu ñū ñr̥ ñr̥̄ ñe ñē ñai ño ñō ñau ñaṃ ñaḥ ñ
-ṭa ṭā ṭi ṭī ṭu ṭū ṭr̥ ṭr̥̄ ṭe ṭē ṭai ṭo ṭō ṭau ṭaṃ ṭaḥ ṭ
-ṭha ṭhā ṭhi ṭhī ṭhu ṭhū ṭhr̥ ṭhr̥̄ ṭhe ṭhē ṭhai ṭho ṭhō ṭhau ṭhaṃ ṭhaḥ ṭh
-ḍa ḍā ḍi ḍī ḍu ḍū ḍr̥ ḍr̥̄ ḍe ḍē ḍai ḍo ḍō ḍau ḍaṃ ḍaḥ ḍ
-ḍha ḍhā ḍhi ḍhī ḍhu ḍhū ḍhr̥ ḍhr̥̄ ḍhe ḍhē ḍhai ḍho ḍhō ḍhau ḍhaṃ ḍhaḥ ḍh
-ṇa ṇā ṇi ṇī ṇu ṇū ṇr̥ ṇr̥̄ ṇe ṇē ṇai ṇo ṇō ṇau ṇaṃ ṇaḥ ṇ
-ta tā ti tī tu tū tr̥ tr̥̄ te tē tai to tō tau taṃ taḥ t
-tha thā thi thī thu thū thr̥ thr̥̄ the thē thai tho thō thau thaṃ thaḥ th
-da dā di dī du dū dr̥ dr̥̄ de dē dai do dō dau daṃ daḥ d
-dha dhā dhi dhī dhu dhū dhr̥ dhr̥̄ dhe dhē dhai dho dhō dhau dhaṃ dhaḥ dh
-na nā ni nī nu nū nr̥ nr̥̄ ne nē nai no nō nau naṃ naḥ n
-pa pā pi pī pu pū pr̥ pr̥̄ pe pē pai po pō pau paṃ paḥ p
-pha phā phi phī phu phū phr̥ phr̥̄ phe phē phai pho phō phau phaṃ phaḥ ph
-ba bā bi bī bu bū br̥ br̥̄ be bē bai bo bō bau baṃ baḥ b
-bha bhā bhi bhī bhu bhū bhr̥ bhr̥̄ bhe bhē bhai bho bhō bhau bhaṃ bhaḥ bh
-ma mā mi mī mu mū mr̥ mr̥̄ me mē mai mo mō mau maṃ maḥ m
-ya yā yi yī yu yū yr̥ yr̥̄ ye yē yai yo yō yau yaṃ yaḥ y
-ra rā ri rī ru rū rr̥ rr̥̄ re rē rai ro rō rau raṃ raḥ r
-ṟa ṟā ṟi ṟī ṟu ṟū ṟr̥ ṟr̥̄ ṟe ṟē ṟai ṟo ṟō ṟau ṟaṃ ṟaḥ ṟ
-la lā li lī lu lū lr̥ lr̥̄ le lē lai lo lō lau laṃ laḥ l
-va vā vi vī vu vū vr̥ vr̥̄ ve vē vai vo vō vau vaṃ vaḥ v
-śa śā śi śī śu śū śr̥ śr̥̄ śe śē śai śo śō śau śaṃ śaḥ ś
-ṣa ṣā ṣi ṣī ṣu ṣū ṣr̥ ṣr̥̄ ṣe ṣē ṣai ṣo ṣō ṣau ṣaṃ ṣaḥ ṣ
-sa sā si sī su sū sr̥ sr̥̄ se sē sai so sō sau saṃ saḥ s
-ha hā hi hī hu hū hr̥ hr̥̄ he hē hai ho hō hau haṃ haḥ h
-ḷa ḷā ḷi ḷī ḷu ḷū ḷr̥ ḷr̥̄ ḷe ḷē ḷai ḷo ḷō ḷau ḷaṃ ḷaḥ ḷ
-ḻa ḻā ḻi ḻī ḻu ḻū ḻr̥ ḻr̥̄ ḻe ḻē ḻai ḻo ḻō ḻau ḻaṃ ḻaḥ ḻ
+ka kā ki kī ku kū kr̥ kr̥̄ ke kē kai ko kō kau kaṁ kaḥ k
+kha khā khi khī khu khū khr̥ khr̥̄ khe khē khai kho khō khau khaṁ khaḥ kh
+ga gā gi gī gu gū gr̥ gr̥̄ ge gē gai go gō gau gaṁ gaḥ g
+gha ghā ghi ghī ghu ghū ghr̥ ghr̥̄ ghe ghē ghai gho ghō ghau ghaṁ ghaḥ gh
+ṅa ṅā ṅi ṅī ṅu ṅū ṅr̥ ṅr̥̄ ṅe ṅē ṅai ṅo ṅō ṅau ṅaṁ ṅaḥ ṅ
+ca cā ci cī cu cū cr̥ cr̥̄ ce cē cai co cō cau caṁ caḥ c
+cha chā chi chī chu chū chr̥ chr̥̄ che chē chai cho chō chau chaṁ chaḥ ch
+ja jā ji jī ju jū jr̥ jr̥̄ je jē jai jo jō jau jaṁ jaḥ j
+jha jhā jhi jhī jhu jhū jhr̥ jhr̥̄ jhe jhē jhai jho jhō jhau jhaṁ jhaḥ jh
+ña ñā ñi ñī ñu ñū ñr̥ ñr̥̄ ñe ñē ñai ño ñō ñau ñaṁ ñaḥ ñ
+ṭa ṭā ṭi ṭī ṭu ṭū ṭr̥ ṭr̥̄ ṭe ṭē ṭai ṭo ṭō ṭau ṭaṁ ṭaḥ ṭ
+ṭha ṭhā ṭhi ṭhī ṭhu ṭhū ṭhr̥ ṭhr̥̄ ṭhe ṭhē ṭhai ṭho ṭhō ṭhau ṭhaṁ ṭhaḥ ṭh
+ḍa ḍā ḍi ḍī ḍu ḍū ḍr̥ ḍr̥̄ ḍe ḍē ḍai ḍo ḍō ḍau ḍaṁ ḍaḥ ḍ
+ḍha ḍhā ḍhi ḍhī ḍhu ḍhū ḍhr̥ ḍhr̥̄ ḍhe ḍhē ḍhai ḍho ḍhō ḍhau ḍhaṁ ḍhaḥ ḍh
+ṇa ṇā ṇi ṇī ṇu ṇū ṇr̥ ṇr̥̄ ṇe ṇē ṇai ṇo ṇō ṇau ṇaṁ ṇaḥ ṇ
+ta tā ti tī tu tū tr̥ tr̥̄ te tē tai to tō tau taṁ taḥ t
+tha thā thi thī thu thū thr̥ thr̥̄ the thē thai tho thō thau thaṁ thaḥ th
+da dā di dī du dū dr̥ dr̥̄ de dē dai do dō dau daṁ daḥ d
+dha dhā dhi dhī dhu dhū dhr̥ dhr̥̄ dhe dhē dhai dho dhō dhau dhaṁ dhaḥ dh
+na nā ni nī nu nū nr̥ nr̥̄ ne nē nai no nō nau naṁ naḥ n
+pa pā pi pī pu pū pr̥ pr̥̄ pe pē pai po pō pau paṁ paḥ p
+pha phā phi phī phu phū phr̥ phr̥̄ phe phē phai pho phō phau phaṁ phaḥ ph
+ba bā bi bī bu bū br̥ br̥̄ be bē bai bo bō bau baṁ baḥ b
+bha bhā bhi bhī bhu bhū bhr̥ bhr̥̄ bhe bhē bhai bho bhō bhau bhaṁ bhaḥ bh
+ma mā mi mī mu mū mr̥ mr̥̄ me mē mai mo mō mau maṁ maḥ m
+ya yā yi yī yu yū yr̥ yr̥̄ ye yē yai yo yō yau yaṁ yaḥ y
+ra rā ri rī ru rū rr̥ rr̥̄ re rē rai ro rō rau raṁ raḥ r
+la lā li lī lu lū lr̥ lr̥̄ le lē lai lo lō lau laṁ laḥ l
+va vā vi vī vu vū vr̥ vr̥̄ ve vē vai vo vō vau vaṁ vaḥ v
+śa śā śi śī śu śū śr̥ śr̥̄ śe śē śai śo śō śau śaṁ śaḥ ś
+ṣa ṣā ṣi ṣī ṣu ṣū ṣr̥ ṣr̥̄ ṣe ṣē ṣai ṣo ṣō ṣau ṣaṁ ṣaḥ ṣ
+sa sā si sī su sū sr̥ sr̥̄ se sē sai so sō sau saṁ saḥ s
+ha hā hi hī hu hū hr̥ hr̥̄ he hē hai ho hō hau haṁ haḥ h
+ḷa ḷā ḷi ḷī ḷu ḷū ḷr̥ ḷr̥̄ ḷe ḷē ḷai ḷo ḷō ḷau ḷaṁ ḷaḥ ḷ
 
-ottakṣara : 
+anākṣara : 
     kka khkha gga ghgha ṅṅa
     cca chcha jja jhjha ñña
     ṭṭa ṭhṭha ḍḍa ḍhḍha ṇṇa
@@ -49,18 +47,10 @@ ottakṣara :
     yya rra lla vva śśa ṣṣa ssa hha ḷḷa
     jña kṣa śra 
 
-anusvara śabdagaḷu : aṃ ombatu eṇṭu ondu embatu eṇṭunūru samyukta akṣāmśa pampa kumbha bandaru maṅga pandaḷa taṇṭe intha daṅga ḍaṅgūra jhaṇḍa ceṇḍu chandassu ghaṇṭe kanda aṅgi oṇṭe enta uṅgura āntarika ōṃ yaṃ brāmhana
-
-viśēṣa prakaraṇagaḷu : za fa ennam̐ dēvā̃ fanta zinda 
-
-kathe : 
-pratiyobbanigū bhāvaneya antaḥkaraṇada hāgū matada svātantryagaḷige bādhyateyuṇṭu. ēkāṅgiyāgiyū illave itararoḍagūḍiyū tanna matavannāgali, viśvāsavannāgali, badalāyisuva svātantryavannū, bahiraṅgavāgiyū gōpyavāgiyū tanna matavannāgali viśvāsavannāgali bōdhisuva, rūḍhisuva, ārādhisuva, ācarisuva svātantryavannū ī hakku oḷagoṇḍide. pratiyobbanigū abhiprāyapaḍuva, uccāraṇegaiva svātantryagaḷa bādhyateyuṇṭu. madhyasthike vahisadante abhiprāyagaḷanniṭṭukoḷḷuva svātantravannū sarahaddugaḷa lakṣyavilladeyū yāva mukhāntaravāgiyū vartamānavannū bhāvanegaḷannū anvēṣaṇagaiva, svīkarisuva, tiḷayapaḍisuva svātantryavannū ī bādhyate oḷagoṇḍide. 
-
-samājada sadasyanādudarinda sāmājika bhadratege pratiyobbanigū hakkuṇṭu. mattu tanna gauravakkū tanna vyaktitvada naisargikābhivr̥ddigū atyagatyavāda ārthika, sāmājika, hāgū sāmskr̥tika hakkugaḷannu rāṣṭrīya prayatnada mūlakavū, antararāṣṭrīya sahakārada mūlakavū mattu pratirāṣṭrada vyavasdhe mattu ādāyagaḷiganuguṇavāgiyū ānubhavisuva bādhyate pratiyobbanigū uṇṭu. virāma viśrāntigaḷigū ucitaparimitiyuḷḷa audyōgika samayakkū vētana samētavāda kālakālada rajegaḷigū pratiyobbanigū hakkuṇṭu. ī prakaṭaneyalli sūcitavāda hakkugaḷannu svātantryagaḷannū sampūrṇavāgi anubhavisa bahudādantha sāmājikavū antararāṣṭrīyavū āda vyavasthege pratiyobbanigū bādhyateyuṇṭu. yāva prāntakkāgiyō saṅghakkāgiyō vyaktigāgiyō embudāgiyū, yāvudō udyamadalli toḍagiralembudāgiyū, athavā idaralliruva yāvudādarū hakkugaḷannū svātantryagaḷannū nāśagoḷisalu uddēśisiruva yāvudō kāryavannu māḍalembudāgiyū ī prakaṭaneyalliruva yāva viṣayavannū vyākhyānisabāradu. ellā mānavarū svatantrarāgiyē janisiddāre. hāgū ghanate mattu hakkugaḷalli samānarāgiddāre. vivēka mattu antaḥkaraṇagaḷannu paḍedavarāddarinda avaru paraspara sahōdara bhāvadinda vartisabēku. 
-
-samskr̥ta :
-śrīmūlasaṅgha dēśigaṇa pustakagaccha koṇḍakundānvayake siddhānta ca kravartti nayakīrtimunīśvarō bhāti || 
-taccheṣyōttamabāḷecandramunipa śrīsādanadmapriyā sarvvōrvvīnutacandramauḷisacivasyārddāṅgalakṣmīri yaṃ ācāmbā rajatādri hāraharahāsōdyadyaśōmañjarīpuñjībhūta jagattrayā jinagr̥haṃ bhaktyā mudā kārayat || 
-
-kavirājamārga : 
-padaṟidu nuḍayaluṃ nuḍiduda naṟiyalumārparā nāḍavargaḷ cadurar nijadiṃ kuritōdadeyuṃ kāvyaprayōga pariṇatamategaḷ
+Saṃskṛta Sanskrit Samskr̥ta Saṃskṛtam Prākṛta : ōm̐ brāmhaṇa Mahābhārata Rāmāyaṇa Śiva Sāmaveda Veda Upaniṣad Āgama Bhagavad·Gītā
+Aṣṭādhyāyī Gaṇa·pāṭha Pada·pāṭha Vārttikas Mahābhāṣya Vākya·padīya Phiṭ·sūtra 
+Dharma·sūtras Raghu·vaṃśa Kumāra·sambhava  
+Āyurveda Suśruta·saṃhitā Caraka·saṃhitā
+Kalpa Jyotiṣa Gaṇita Śulba·sūtras Siddhāntas Āryabhaṭīya Daśa·gītikā·sutra Siddhānta·śiromaṇi Gaṇita·sāra·saṅgraha Bīja·gaṇita
+Kāma·sūtra Pañca·sāyaka Rati·rahasya Rati·mañjari Anaṅga·ranga
+Subhāṣitas Nīti·śataka Bodhicary'âvatāra Śr̥ṅgāra·jñāna·nirṇaya Kalā·vilāsa Catur·varga·saṅgraha Nīti·mañjari Mugdh'ôpadeśa Subhāṣita·ratna·sandoha  Śr̥ṅgāra·vairāgya·taraṅgiṇī Nāṭya Sangīta Kāvya Purāṇas Darśana Sāṅkhya Yoga Nyāya Vaiśeṣika Mīmāṅsa Vedānta Vaishnavism Shaivism Shaktism Smārta Tattvārtha Br̥hat Gr̥hya Kr̥ṣi Sūtra Mahāpurāṇa Tripiṭaka
