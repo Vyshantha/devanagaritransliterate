@@ -57,7 +57,6 @@ function transliterate() {
   }
 
   // DEFECT ḷ represents : ळ् (ISO 15919) and ऌ / ॢ (IAST)
-  // DEFECT Brāhmi - ब्राह्मि
 
   /*  
     Transliteration for Sanskrit (ISO 15919 : IAST) : https://en.wikipedia.org/wiki/ISO_15919
