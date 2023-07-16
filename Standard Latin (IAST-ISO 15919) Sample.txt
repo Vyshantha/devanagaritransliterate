@@ -44,7 +44,65 @@ anākṣara :
     tta ththa dda dhdha nna
     ppa phpha bba bhbha mma
     yya rra lla vva śśa ṣṣa ssa hha 
-    jña kṣa śra 
+    kṣa tra jña śra kʾ khʾ gʾ jʾ jhʾ ḍʾ ḍhʾ tʾ thʾ phʾ sʾ hʾ         
+
+ka kha ga gha ṅa ca cha ja jha ña ṭa ṭha ḍa ḍha ṇa ta tha da dha na pa pha ba bha ma ya ra la va śa ṣa sa ha ḷa kṣa jña
+ka kka kkha kga kgha kṅa kca kcha kja kjha kña kṭa kṭha kḍa kḍha kṇa kta ktha kda kdha kna kpa kpha kba kbha kma kya kra kla kva kśa kṣa ksa kha kḷa kkṣa kjña
+kha khka khkha khga khgha khṅa khca khcha khja khjha khña khṭa khṭha khḍa khḍha khṇa khta khtha khda khdha khna khpa khpha khba khbha khma khya khra khla khva khśa khṣa khsa khha khḷa khkṣa khjña
+ga gka gkha gga ggha gṅa gca gcha gja gjha gña gṭa gṭha gḍa gḍha gṇa gta gtha gda gdha gna gpa gpha gba gbha gma gya gra gla gva gśa gṣa gsa gha gḷa gkṣa gjña
+gha ghka ghkha ghga ghgha ghṅa ghca ghcha ghja ghjha ghña ghṭa ghṭha ghḍa ghḍha ghṇa ghta ghtha ghda ghdha ghna ghpa ghpha ghba ghbha ghma ghya ghra ghla ghva ghśa ghṣa ghsa ghha ghḷa ghkṣa ghjña
+ṅa ṅka ṅkha ṅga ṅgha ṅṅa ṅca ṅcha ṅja ṅjha ṅña ṅṭa ṅṭha ṅḍa ṅḍha ṅṇa ṅta ṅtha ṅda ṅdha ṅna ṅpa ṅpha ṅba ṅbha ṅma ṅya ṅra ṅla ṅva ṅśa ṅṣa ṅsa ṅha ṅḷa ṅkṣa ṅjña
+ca cka ckha cga cgha cṅa cca ccha cja cjha cña cṭa cṭha cḍa cḍha cṇa cta ctha cda cdha cna cpa cpha cba cbha cma cya cra cla cva cśa cṣa csa cha cḷa ckṣa cjña
+cha chka chkha chga chgha chṅa chca chcha chja chjha chña chṭa chṭha chḍa chḍha chṇa chta chtha chda chdha chna chpa chpha chba chbha chma chya chra chla chva chśa chṣa chsa chha chḷa chkṣa chjña
+ja jka jkha jga jgha jṅa jca jcha jja jjha jña jṭa jṭha jḍa jḍha jṇa jta jtha jda jdha jna jpa jpha jba jbha jma jya jra jla jva jśa jṣa jsa jha jḷa jkṣa jjña
+jha jhka jhkha jhga jhgha jhṅa jhca jhcha jhja jhjha jhña jhṭa jhṭha jhḍa jhḍha jhṇa jhta jhtha jhda jhdha jhna jhpa jhpha jhba jhbha jhma jhya jhra jhla jhva jhśa jhṣa jhsa jhha jhḷa jhkṣa jhjña
+ña ñka ñkha ñga ñgha ñṅa ñca ñcha ñja ñjha ñña ñṭa ñṭha ñḍa ñḍha ñṇa ñta ñtha ñda ñdha ñna ñpa ñpha ñba ñbha ñma ñya ñra ñla ñva ñśa ñṣa ñsa ñha ñḷa ñkṣa ñjña
+ṭa ṭka ṭkha ṭga ṭgha ṭṅa ṭca ṭcha ṭja ṭjha ṭña ṭṭa ṭṭha ṭḍa ṭḍha ṭṇa ṭta ṭtha ṭda ṭdha ṭna ṭpa ṭpha ṭba ṭbha ṭma ṭya ṭra ṭla ṭva ṭśa ṭṣa ṭsa ṭha ṭḷa ṭkṣa ṭjña
+ṭha ṭhka ṭhkha ṭhga ṭhgha ṭhṅa ṭhca ṭhcha ṭhja ṭhjha ṭhña ṭhṭa ṭhṭha ṭhḍa ṭhḍha ṭhṇa ṭhta ṭhtha ṭhda ṭhdha ṭhna ṭhpa ṭhpha ṭhba ṭhbha ṭhma ṭhya ṭhra ṭhla ṭhva ṭhśa ṭhṣa ṭhsa ṭhha ṭhḷa ṭhkṣa ṭhjña
+ḍa ḍka ḍkha ḍga ḍgha ḍṅa ḍca ḍcha ḍja ḍjha ḍña ḍṭa ḍṭha ḍḍa ḍḍha ḍṇa ḍta ḍtha ḍda ḍdha ḍna ḍpa ḍpha ḍba ḍbha ḍma ḍya ḍra ḍla ḍva ḍśa ḍṣa ḍsa ḍha ḍḷa ḍkṣa ḍjña
+ḍha ḍhka ḍhkha ḍhga ḍhgha ḍhṅa ḍhca ḍhcha ḍhja ḍhjha ḍhña ḍhṭa ḍhṭha ḍhḍa ḍhḍha ḍhṇa ḍhta ḍhtha ḍhda ḍhdha ḍhna ḍhpa ḍhpha ḍhba ḍhbha ḍhma ḍhya ḍhra ḍhla ḍhva ḍhśa ḍhṣa ḍhsa ḍhha ḍhḷa ḍhkṣa ḍhjña
+ṇa ṇka ṇkha ṇga ṇgha ṇṅa ṇca ṇcha ṇja ṇjha ṇña ṇṭa ṇṭha ṇḍa ṇḍha ṇṇa ṇta ṇtha ṇda ṇdha ṇna ṇpa ṇpha ṇba ṇbha ṇma ṇya ṇra ṇla ṇva ṇśa ṇṣa ṇsa ṇha ṇḷa ṇkṣa ṇjña
+ta tka tkha tga tgha tṅa tca tcha tja tjha tña tṭa tṭha tḍa tḍha tṇa tta ttha tda tdha tna tpa tpha tba tbha tma tya tra tla tva tśa tṣa tsa tha tḷa tkṣa tjña
+tha thka thkha thga thgha thṅa thca thcha thja thjha thña thṭa thṭha thḍa thḍha thṇa thta ththa thda thdha thna thpa thpha thba thbha thma thya thra thla thva thśa thṣa thsa thha thḷa thkṣa thjña
+da dka dkha dga dgha dṅa dca dcha dja djha dña dṭa dṭha dḍa dḍha dṇa dta dtha dda ddha dna dpa dpha dba dbha dma dya dra dla dva dśa dṣa dsa dha dḷa dkṣa djña
+dha dhka dhkha dhga dhgha dhṅa dhca dhcha dhja dhjha dhña dhṭa dhṭha dhḍa dhḍha dhṇa dhta dhtha dhda dhdha dhna dhpa dhpha dhba dhbha dhma dhya dhra dhla dhva dhśa dhṣa dhsa dhha dhḷa dhkṣa dhjña
+na nka nkha nga ngha nṅa nca ncha nja njha nña nṭa nṭha nḍa nḍha nṇa nta ntha nda ndha nna npa npha nba nbha nma nya nra nla nva nśa nṣa nsa nha nḷa nkṣa njña
+pa pka pkha pga pgha pṅa pca pcha pja pjha pña pṭa pṭha pḍa pḍha pṇa pta ptha pda pdha pna ppa ppha pba pbha pma pya pra pla pva pśa pṣa psa pha pḷa pkṣa pjña
+pha phka phkha phga phgha phṅa phca phcha phja phjha phña phṭa phṭha phḍa phḍha phṇa phta phtha phda phdha phna phpa phpha phba phbha phma phya phra phla phva phśa phṣa phsa phha phḷa phkṣa phjña
+ba bka bkha bga bgha bṅa bca bcha bja bjha bña bṭa bṭha bḍa bḍha bṇa bta btha bda bdha bna bpa bpha bba bbha bma bya bra bla bva bśa bṣa bsa bha bḷa bkṣa bjña
+bha bhka bhkha bhga bhgha bhṅa bhca bhcha bhja bhjha bhña bhṭa bhṭha bhḍa bhḍha bhṇa bhta bhtha bhda bhdha bhna bhpa bhpha bhba bhbha bhma bhya bhra bhla bhva bhśa bhṣa bhsa bhha bhḷa bhkṣa bhjña
+ma mka mkha mga mgha mṅa mca mcha mja mjha mña mṭa mṭha mḍa mḍha mṇa mta mtha mda mdha mna mpa mpha mba mbha mma mya mra mla mva mśa mṣa msa mha mḷa mkṣa mjña
+ya yka ykha yga ygha yṅa yca ycha yja yjha yña yṭa yṭha yḍa yḍha yṇa yta ytha yda ydha yna ypa ypha yba ybha yma yya yra yla yva yśa yṣa ysa yha yḷa ykṣa yjña
+ra rka rkha rga rgha rṅa rca rcha rja rjha rña rṭa rṭha rḍa rḍha rṇa rta rtha rda rdha rna rpa rpha rba rbha rma rya rra rla rva rśa rṣa rsa rha rḷa rkṣa rjña
+la lka lkha lga lgha lṅa lca lcha lja ljha lña lṭa lṭha lḍa lḍha lṇa lta ltha lda ldha lna lpa lpha lba lbha lma lya lra lla lva lśa lṣa lsa lha lḷa lkṣa ljña
+va vka vkha vga vgha vṅa vca vcha vja vjha vña vṭa vṭha vḍa vḍha vṇa vta vtha vda vdha vna vpa vpha vba vbha vma vya vra vla vva vśa vṣa vsa vha vḷa vkṣa vjña
+śa śka śkha śga śgha śṅa śca ścha śja śjha śña śṭa śṭha śḍa śḍha śṇa śta śtha śda śdha śna śpa śpha śba śbha śma śya śra śla śva śśa śṣa śsa śha śḷa śkṣa śjña
+ṣa ṣka ṣkha ṣga ṣgha ṣṅa ṣca ṣcha ṣja ṣjha ṣña ṣṭa ṣṭha ṣḍa ṣḍha ṣṇa ṣta ṣtha ṣda ṣdha ṣna ṣpa ṣpha ṣba ṣbha ṣma ṣya ṣra ṣla ṣva ṣśa ṣṣa ṣsa ṣha ṣḷa ṣkṣa ṣjña
+sa ska skha sga sgha sṅa sca scha sja sjha sña sṭa sṭha sḍa sḍha sṇa sta stha sda sdha sna spa spha sba sbha sma sya sra sla sva sśa sṣa ssa sha sḷa skṣa sjña
+ha hka hkha hga hgha hṅa hca hcha hja hjha hña hṭa hṭha hḍa hḍha hṇa hta htha hda hdha hna hpa hpha hba hbha hma hya hra hla hva hśa hṣa hsa hha hḷa hkṣa hjña
+ḷa ḷka ḷkha ḷga ḷgha ḷṅa ḷca ḷcha ḷja ḷjha ḷña ḷṭa ḷṭha ḷḍa ḷḍha ḷṇa ḷta ḷtha ḷda ḷdha ḷna ḷpa ḷpha ḷba ḷbha ḷma ḷya ḷra ḷla ḷva ḷśa ḷṣa ḷsa ḷha ḷḷa ḷkṣa ḷjña
+
+ktra ktva kṣṇa kṣma kṣya
+gdhra gnya grya gyna
+ṅkta ṅkra ṅkṣa
+cchya cchra
+jjya jjva
+ṇḍya ṇḍra ṇḍva
+tkra tkva tkṣa ttna ttra ttva tpra tpla trya tsna tsya tsva
+dgra ddya ddra ddhma ddhva dbra dvya
+ntya ntra nddha ndra ndhya ndhra
+ptra psya
+mpra
+rgya rgra rghya rṅga rjya rḍhya rṇya rtta rtma rtya rtra rtsa rddha rdra rdva
+rdhma rdhra rdhva rmya rsva rṣṇa rṣma rṣya
+ṣkra ṣkva ṣṭva ṣṭhya ṣpya ṣmya
+stya stra 
+vyva
+
+kṣṇya
+ṅkṣya
+mkbśa
+rttra rṣṭra
 
 Saṃskṛta Sanskrit Samskr̥ta Saṃskṛtam Prākṛta : ōm̐ brāmhaṇa Mahābhārata Rāmāyaṇa Śiva Sāmaveda Veda Upaniṣad Āgama Bhagavad·Gītā
 Aṣṭādhyāyī Gaṇa·pāṭha Pada·pāṭha Vārttikas Mahābhāṣya Vākya·padīya Phiṭ·sūtra 
@@ -52,7 +110,9 @@ Dharma·sūtras Raghu·vaṃśa Kumāra·sambhava Āyurveda Suśruta·saṃhitā
 Kalpa Jyotiṣa Gaṇita Śulba·sūtras Siddhāntas Āryabhaṭīya Daśa·gītikā·sutra Siddhānta·śiromaṇi Gaṇita·sāra·saṅgraha Bīja·gaṇita
 Kāma·sūtra Pañca·sāyaka Rati·rahasya Rati·mañjari Anaṅga·ranga Br̥hat Gr̥hya Kr̥ṣi Sūtra Mahāpurāṇa Tripiṭaka
 Subhāṣitas Nīti·śataka Bodhicary'âvatāra Śr̥ṅgāra·jñāna·nirṇaya Kalā·vilāsa Catur·varga·saṅgraha Nīti·mañjari Mugdh'ôpadeśa Subhāṣita·ratna·sandoha  Śr̥ṅgāra·vairāgya·taraṅgiṇī Nāṭya Sangīta Kāvya Purāṇas Darśana Sāṅkhya Yoga Nyāya Vaiśeṣika Mīmāṅsa Vedānta Vaishnavism Shaivism Shaktism Smārta Tattvārtha 
+Brāhmi Kharoṣṭhī Śivo’ham Mã 
 
+Vedisakehi daṇtakāreshi rupakṁmaṁ kataṁ |
 śrīmūlasaṅgha dēśigaṇa pustakagaccha koṇḍakundānvayake siddhānta ca kravartti nayakīrtimunīśvarō bhāti || 
 taccheṣyōttamabāḷecandramunipa śrīsādanadmapriyā sarvvōrvvīnutacandramauḷisacivasyārddāṅgalakṣmīri 
 yaṁ ācāmbā rajatādri hāraharahāsōdyadyaśōmañjarīpuñjībhūta jagattrayā jinagr̥haṁ bhaktyā mudā kārayat || 
