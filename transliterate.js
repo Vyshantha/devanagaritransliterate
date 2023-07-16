@@ -148,7 +148,7 @@ function transliterate() {
           } else {
             resultSa = resultSa.slice(0, -2) + latinToDevanagari[textLa[u - 1] + "a"];
           }
-        } else if ((latinToDevanagari[textLa[u - 2]] && diacritics[textLa[u - 1]] && anuswaraEndings.indexOf(textLa[u]) > -1 && letterAfterAnuswara.indexOf(textLa[u + 1]) > -1 && diacritics[textLa[u + 2]]) || ((textLa[u - 1] == "a" || diacritics[textLa[u - 1]]) && anuswaraEndings.indexOf(textLa[u]) > -1 && letterAfterAnuswara.indexOf(textLa[u + 1]) > -1) || (diacritics[textLa[u - 1]] && anuswaraEndings.indexOf(textLa[u]) == -1 && anuswaraEndings.indexOf(textLa[u + 1]) > -1)) {
+        } else if ((latinToDevanagari[textLa[u - 2]] != undefined && diacritics[textLa[u - 1]] != undefined && anuswaraEndings.indexOf(textLa[u]) > -1 && letterAfterAnuswara.indexOf(textLa[u + 1]) > -1 && diacritics[textLa[u + 2]] != undefined) || ((textLa[u - 1] == "a" || diacritics[textLa[u - 1]] != undefined) && anuswaraEndings.indexOf(textLa[u]) > -1 && letterAfterAnuswara.indexOf(textLa[u + 1]) > -1)) {
           resultSa = resultSa + "ं"; // Anuswara - C¹A  CD¹A   C¹AC² CD¹AC² C¹AC² CD¹AC² 
         } else {
           resultSa = resultSa + latinToDevanagari[textLa[u] + "a"] + "्";
