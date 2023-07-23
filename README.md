@@ -8,3 +8,6 @@ The application completes transliteration of texts pasted or typed into the text
 The strict nasalisation of anusvāra transliteration using [ISO 15919](https://en.wikipedia.org/wiki/ISO_15919) is adhered.
 
 The languages ```Apabhramsha (अपभ्रंश), Angika (अंगिका), Awadhi (अवधी), Bajjika (बज्जिक), Bhili (भीली), Bhojpuri (भोजपुरी), Boro (बड़ो), Braj (ब्रज), Chhattisgarhi (छत्तीसगढ़ी), Dogri (डोगरी), Garhwali (गढ़वळि), Haryanvi (हरियाणवी), Hindi (हिन्दी), Kashmiri (कॉशुर), Khandeshi (खंदेस्हि), Konkani (कोंकणी), Kumaoni (कुमाऊँनी), Magahi (मगही), Maithili (मैथिली), Marathi (मराठी), Marwari (मारवाड़ी), Mundari (मुंडारी), Nagpuri (नागपुरि), Nepali (नेपाली), Pāli (पालि), Pahari (पहिड़ी), Prakrit (प्राकृत), Rajasthani (राजस्थानी), Sanskrit (संस्कृत), Santali (संतलि), Saraiki (सरीकी), Sherpa (शेर्वी), Sindhi (सिन्धी), Surjapuri (सुरजापुरी)``` written in Devanagari देवनागरी (devanāgarī) script are supported with this application.
+
+- To change the transliteration direction i.e. to switch between Latin or Devanagari, click the swap icon  <img src="./swap-horiz-64.png" width="40px" height="40px" />  
+- To copy the contents of the either Latin or Devanagari text areas click the copy content icon  <img src="./content-copy-64.png" width="40px" height="40px" /> 
