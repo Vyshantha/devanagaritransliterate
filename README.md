@@ -1,9 +1,9 @@
-# Transliterator : Devanagari देवनागरी <-> Latin - IAST and ISO 15919 
+# Transliterator : Devanagari देवनागरी <-> Latin - IAST, Harward-Kyoto, SLP-1 and ISO-15919 
 An application that can work both online and offline (once the website is loaded on the browser) on the [Devanagari Transliterate](https://vyshantha.github.io/devanagaritransliterate/) website. 
 
 Application can run on any type of device : ```Mobile, Tablet, Desktops and Laptops``` on operating systems like ```Android, Apple iOS, Apple Mac, Microsoft Windows and Linux``` on browsers such as ```Mozilla Firefox, Google Chrome, Microsoft Edge, Apple Safari, Opera and Brave```.
 
-The application completes transliteration of texts pasted or typed into the text area from Devanagari देवनागरी (devanāgarī) script to Latin script based on [ISO 15919](https://en.wikipedia.org/wiki/ISO_15919) and from Latin script based on [IAST](https://en.wikipedia.org/wiki/International_Alphabet_of_Sanskrit_Transliteration) & [ISO 15919](https://en.wikipedia.org/wiki/ISO_15919) to Devanagari देवनागरी (devanāgarī) script.
+The application completes transliteration of texts pasted or typed into the text area from Devanagari देवनागरी (devanāgarī) script to Latin script based on [ISO 15919](https://en.wikipedia.org/wiki/ISO_15919). Additionally the application transliterate texts from Latin script based on [IAST](https://en.wikipedia.org/wiki/International_Alphabet_of_Sanskrit_Transliteration), or  [Harvard-Kyoto](https://en.wikipedia.org/wiki/Harvard-Kyoto), or [SLP-1](https://en.wikipedia.org/wiki/SLP1) or [ISO 15919](https://en.wikipedia.org/wiki/ISO_15919) to Devanagari देवनागरी (devanāgarī) script.
 
 The strict nasalisation of anusvāra transliteration using [ISO 15919](https://en.wikipedia.org/wiki/ISO_15919) is adhered.
 
