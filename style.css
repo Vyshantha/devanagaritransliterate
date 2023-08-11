@@ -73,7 +73,7 @@ body{
 }
 .controls .row.to .icons{
   padding-left: 15px;
-  /*border-left: 1px solid #ccc;*/
+  /*border-right: 1px solid #ccc;*/
 }
 .controls .row select{
   color: #333;
@@ -107,6 +107,7 @@ body{
   cursor: pointer;
   font-size: 30px;
   transition: transform 0.2s ease;
+  margin-left: -90px;
 }
 .controls i:active{
   transform: scale(0.9);
@@ -149,6 +150,46 @@ body{
 .footerImage {
   margin-bottom: -7px;
 }
+
+.dropbtn {
+  background-color: #d3cbcb;
+  color: white;
+  padding: 2px;
+  font-size: 18px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding-right: 65px;
+  padding-bottom: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b6b1b1;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  cursor: pointer;
+  padding-left: 18px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 2px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 @media (max-width: 660px){
   .container{
