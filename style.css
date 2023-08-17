@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-body{
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,29 +14,29 @@ body{
   min-height: 100vh;
   background: #c89963;
 }
-.container{
+.container {
   max-width: 750px;
   width: 100%;
   padding: 30px;
   background: #fff;
   border-radius: 7px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.01);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01);
 }
-.wrapper{
+.wrapper {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-.wrapper .text-input{
+.wrapper .text-input {
   display: flex;
   border-bottom: 1px solid #ccc;
 }
-.text-input .to-text{
+.text-input .to-text {
   border-radius: 0px;
   border-left: 1px solid #ccc;
-  font-family: 'Noto Sans Devanagari';
+  font-family: "Noto Sans Devanagari";
   font-size: 18px;
 }
-.text-input textarea{
+.text-input textarea {
   height: 250px;
   width: 100%;
   border: none;
@@ -47,19 +47,22 @@ body{
   padding: 10px 15px;
   border-radius: 5px;
 }
-.text-input textarea::placeholder{
+.text-input textarea::placeholder {
   color: #b7b6b6;
 }
-.controls, li, .icons, .icons i{
+.controls,
+li,
+.icons,
+.icons i {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.controls{
+.controls {
   list-style: none;
   padding: 12px 15px;
 }
-.controls .row .icons i{
+.controls .row .icons i {
   width: 50px;
   color: #736e6e;
   font-size: 25px;
@@ -67,15 +70,15 @@ body{
   transition: transform 0.2s ease;
   justify-content: center;
 }
-.controls .row.from .icons{
+.controls .row.from .icons {
   padding-right: 15px;
   /*border-right: 1px solid #ccc;*/
 }
-.controls .row.to .icons{
+.controls .row.to .icons {
   padding-left: 15px;
   /*border-right: 1px solid #ccc;*/
 }
-.controls .row select{
+.controls .row select {
   color: #333;
   border: none;
   outline: none;
@@ -83,36 +86,36 @@ body{
   background: none;
   padding-left: 5px;
 }
-.text-input textarea::-webkit-scrollbar{
+.text-input textarea::-webkit-scrollbar {
   width: 4px;
 }
-.controls .row select::-webkit-scrollbar{
+.controls .row select::-webkit-scrollbar {
   width: 8px;
 }
 .text-input textarea::-webkit-scrollbar-track,
-.controls .row select::-webkit-scrollbar-track{
+.controls .row select::-webkit-scrollbar-track {
   background: #fff;
 }
-.text-input textarea::-webkit-scrollbar-thumb{
+.text-input textarea::-webkit-scrollbar-thumb {
   background: #ddd;
   border-radius: 8px;
 }
-.controls .row select::-webkit-scrollbar-thumb{
+.controls .row select::-webkit-scrollbar-thumb {
   background: #999;
   border-radius: 8px;
   border-right: 2px solid #ffffff;
 }
-.controls .exchange{
+.controls .exchange {
   color: #736e6e;
   cursor: pointer;
   font-size: 30px;
   transition: transform 0.2s ease;
   margin-left: -90px;
 }
-.controls i:active{
+.controls i:active {
   transform: scale(0.9);
 }
-.container button{
+.container button {
   width: 100%;
   padding: 14px;
   outline: none;
@@ -124,8 +127,8 @@ body{
   border-radius: 5px;
   background: #a85a00;
 }
-.textDevanagari{
-  font-family: 'Noto Sans Devanagari';
+.textDevanagari {
+  font-family: "Noto Sans Devanagari";
   font-size: 0.8em;
   width: 60%;
 }
@@ -172,7 +175,7 @@ body{
   position: absolute;
   background-color: #b6b1b1;
   min-width: 50px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   cursor: pointer;
   padding-left: 18px;
@@ -185,40 +188,46 @@ body{
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
-@media (max-width: 660px){
-  .container{
+@media (max-width: 660px) {
+  .container {
     padding: 20px;
   }
-  .wrapper .text-input{
+  .wrapper .text-input {
     flex-direction: column;
   }
-  .text-input .to-text{
+  .text-input .to-text {
     border-left: 0px;
     border-top: 1px solid #ccc;
   }
-  .text-input textarea{
+  .text-input textarea {
     height: 200px;
   }
-  .controls .row .icons{
+  .controls .row .icons {
     font-size: 20px;
   }
-  .container button{
+  .container button {
     padding: 13px;
     font-size: 16px;
   }
-  .controls .row select{
+  .controls .row select {
     font-size: 16px;
   }
-  .controls .exchange{
+  .controls .exchange {
     font-size: 20px;
   }
-  .textDevanagari{
+  .textDevanagari {
     font-size: large;
     width: 20%;
   }
@@ -230,7 +239,7 @@ body{
   /*border-bottom: 1px dotted black;*/
 }
 .tooltip:hover {
-   cursor: pointer;
+  cursor: pointer;
 }
 .close {
   color: red;
@@ -319,10 +328,10 @@ body{
   text-align: center;
 }
 
-.footerOfPage { 
+.footerOfPage {
   text-align: center;
-  position: fixed; 
-  bottom: 10px; 
+  position: fixed;
+  bottom: 10px;
   font-size: 10px;
   padding: 15px;
 }
