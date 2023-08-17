@@ -77,7 +77,7 @@ function transliterate() {
     let textLa = document.getElementById("textarea1").value;
 
     // TODO : NPM build 
-    // TODO : Input ( ISO-15919 | IAST | SLP | HK ) converted live to ISO-15919 (except Vedic accents) and transliterate to Devanagari
+    // Input ( ISO-15919 | IAST | SLP | HK ) converted live to ISO-15919 and transliterate to Devanagari
       
     if (localStorage.getItem("transliterate") == "SLP") {
       
@@ -119,7 +119,6 @@ function transliterate() {
       textLa = textLa.replaceAll("AI","ai").replaceAll("aM","aṁ").replaceAll("aH","aḥ").replaceAll("A","ā").replaceAll("I","ī").replaceAll("U","ū").replaceAll("lRR","l̥̄").replaceAll("RR","r̥̄").replaceAll("lR","l̥").replaceAll("R","r̥").replaceAll("e","ē").replaceAll("o","ō").replaceAll("~","m̐").replaceAll("G","ṅ").replaceAll("J","ñ").replaceAll("Th","ṭh").replaceAll("T","ṭ").replaceAll("Dh","ḍh").replaceAll("D","ḍ").replaceAll("N","ṇ").replaceAll("z","ś").replaceAll("S","ṣ").replaceAll("L","ḷ");
 
       // TODO : Vedic accents not encoded ?
-      // TODO : lR - ऌ or lRR - ॡ to handle lR - लृ or lRR - लॄ resp.
 
     } else if (localStorage.getItem("transliterate") == "IAST") {
       
@@ -238,9 +237,36 @@ function transliterate() {
       }
     }
 
+    if (localStorage.getItem("transliterate") == "HK" && (resultSa.indexOf("ऌ") > -1 || resultSa.indexOf("ॡ") > -1 || resultSa.indexOf("ॢ") > -1 || resultSa.indexOf("ೣ") > -1)) { // lR - ऌ or lRR - ॡ to handle lR - लृ or lRR - लॄ resp.
+      // TODO starting non lR/lRR
+      if (resultSa.indexOf(' ') == -1) { 
+        resultSa = resultSa + ' ' + resultSa.replaceAll("ೣ","लॄ").replaceAll("ॢ","लृ").replaceAll("ॡ",'लॄ').replaceAll("ऌ",'लृ');
+      } else {
+        let unprocessed = resultSa.split(" ");
+        let processed = "";
+
+        for (let i = 0; i < unprocessed.length; i++) {
+          if (unprocessed[i].indexOf("ऌ") > -1){
+            processed = processed + unprocessed[i] + ' ' + unprocessed[i].replaceAll("ऌ","लृ") + ' ';
+          } else if (unprocessed[i].indexOf("ॡ") > -1){
+            processed = processed + unprocessed[i] + ' ' + unprocessed[i].replaceAll("ॡ","लॄ") + ' ';
+          } else if (unprocessed[i].indexOf("ॢ") > -1){
+            processed = processed + unprocessed[i] + ' ' + unprocessed[i].replaceAll("ॢ","लृ") + ' ';
+          } else if (unprocessed[i].indexOf("ೣ") > -1){
+            processed = processed + unprocessed[i] + ' ' + unprocessed[i].replaceAll("ೣ","लॄ") + ' ';
+          } else {
+            processed = processed + unprocessed[i] + ' ';
+          }
+        }
+        resultSa = processed;
+      }
+    }
+
     document.getElementById("textarea2").value = resultSa;
     document.getElementById("textarea2").innerHTML = resultSa;
   } else if (localStorage.getItem("direction") == "devanagari2latin") {
+    document.getElementById("dropdownButton").innerText = "ISO";
+
     const devanagariToLatin = { "0": "0", "1": "1", "2": "2", "3": "3", "4": "4", "5": "5", "6": "6", "7": "7", "8": "8", "9": "9", "०": "0", "१": "1", "२": "2", "३": "3", "४": "4", "५": "5", "६": "6", "७": "7", "८": "8", "९": "9", " ": " ", "।": ".", "॥": ".", ",": ",", ";": ";", "?": "?", "!": "!", "\"": "\"", "'": "'", "(": "(", ")": ")", ":": ":", "+": "+", "=": "=", "/": "/", "-": "-", "<": "<", ">": ">", "*": "*", "|": "|", "\\": "\\", "₹": "₹", "{": "{", "}": "}", "[": "[", "]": "]", "_": "_", "%": "%", "@": "@", "ˆ": "ˆ", "`": "`", "´": "´", "˜": "˜", "·": "·", "˙": "˙", "¯": "¯", "¨": "¨", "˚": "˚", "˝": "˝", "ˇ": "ˇ", "¸": "¸", "˛": "˛", "˘": "˘", "’": "’", "अ": "a", "आ": "ā", "ॲ": "ê", "ऑ": "ô", "इ": "i", "ई": "ī", "उ": "u", "ऊ": "ū", "ऋ": "r̥", "ॠ": "r̥̄", "ऌ": "l̥", "ॡ": "l̥̄", "ऍ": "ê",  "ऎ": "e", "ए": "ē", "ऐ": "ai", "ऒ": "o", "ओ": "ō", "औ": "au", "अं": "aṁ", "अः": "aḥ", "ँ": "m̐", "क": "ka", "ख": "kha", "ग": "ga", "घ": "gha", "ङ": "ṅa", "च": "ca", "छ": "cha", "ज": "ja", "झ": "jha", "ञ": "ña", "ट": "ṭa", "ठ": "ṭha", "ड": "ḍa", "ढ": "ḍha", "ण": "ṇa", "त": "ta", "थ": "tha", "द": "da", "ध": "dha", "न": "na", "प": "pa", "फ": "pha", "ब": "ba", "भ": "bha", "म": "ma", "य": "ya", "र": "ra", "ल": "la", "व": "va", "श": "śa", "ष": "ṣa", "स": "sa", "ह": "ha", "ळ": "ḷa", "ॐ" : "ōm̐", "a": "a", "b": "b", "c": "c", "d": "d", "e": "e", "f": "f", "g": "g", "h": "h", "i": "i", "j": "j", "k": "k", "l": "l", "m": "m", "n": "n", "o": "o", "p": "p", "q": "q", "r": "r", "s": "s", "t": "t", "u": "u", "v": "v", "w": "w", "x": "x", "y": "y", "z": "z", "A": "A", "B": "B", "C": "C", "D": "D", "E": "E", "F": "F", "G": "G", "H": "H", "I": "I", "J": "J", "K": "K", "L": "L", "M": "M", "N": "N", "O": "O", "P": "P", "Q": "Q", "R": "R", "S": "S", "T": "T", "U": "U", "V": "V", "W": "W", "X": "X", "Y": "Y", "Z": "Z", "॰":".", "\u0951":"̍", "\u0952":"̱", "\u1ce0":"\u1ce0", "\u1CF5":"\u1CF5", "\u1CF6":"\u1CF6" };
 
     const swaras = ["अ", "आ", "ॲ", "ऑ", "इ", "ई", "उ", "ऊ", "ऋ", "ॠ", "ऌ", "ॡ", "ऍ", "ऎ", "ए", "ऐ", "ऒ", "ओ", "औ"];
