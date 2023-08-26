@@ -72,6 +72,7 @@ function transliterate() {
     Devanagari Extended Unicode Block : https://www.unicode.org/charts/PDF/UA8E0.pdf
     Devanagari Extended-A Unicode Block : https://www.unicode.org/charts/PDF/U11B00.pdf
     Vedic Extensions Unicode Block : https://www.unicode.org/charts/PDF/U1CD0.pdf
+        Vedic accents : https://doi.org/10.5281/zenodo.837826
   */
 
   if (
@@ -89,7 +90,6 @@ function transliterate() {
     let resultSa = "";
     let textLa = document.getElementById("textarea1").value;
 
-    // TODO : NPM build
     // Input ( ISO-15919 | IAST | SLP | HK ) converted live to ISO-15919 and transliterate to Devanagari
 
     if (localStorage.getItem("transliterate") == "SLP") {
@@ -202,12 +202,14 @@ function transliterate() {
         ha: "ह",
         ḷa: "ळ",
         ōm̐: "ॐ",
-        ".": "॰",
-        "̍": "\u0951",
-        "̱": "\u0952",
-        "\u1ce0": "\u1ce0",
-        "\u1CF5": "\u1CF5",
-        "\u1CF6": "\u1CF6",
+        ".": "॰", 
+        "̍": "\u0951", 
+        "\u0301": "\u0951", 
+        "̱": "\u0952", 
+        "\u0332": "\u0952", 
+        "\u1CF5": "\u1CF5", 
+        "\u1CF6": "\u1CF6", 
+        "\uA8EB": "\uA8EB"
       };
 
       diacritics = {
@@ -331,11 +333,26 @@ function transliterate() {
         .replaceAll("S", "ś")
         .replaceAll("z", "ṣ")
         .replaceAll("L", "ḷ")
-        .replaceAll("/", "̍")
+        .replaceAll("^", "̍")
+        .replaceAll("ˆ", "̍")
+        .replaceAll("â", "a̍")
+        .replaceAll("ê", "e̍")
+        .replaceAll("î", "i̍")
+        .replaceAll("ô", "o̍")
+        .replaceAll("û", "u̍")
+        .replaceAll("ā̂", "ā̍")
+        .replaceAll("ē̂", "ē̍")
+        .replaceAll("ī̂", "ī̍")
+        .replaceAll("ō̂", "ō̍")
+        .replaceAll("ū̂", "ū̍")
         .replaceAll("\\", "̱")
+        .replaceAll("/", "\uA8EB")
         .replaceAll("^", "\u1ce0")
         .replaceAll("Z", "\u1CF5")
         .replaceAll("V", "\u1CF6");
+
+        // When required : Ā̀ Â Ā̂ Ā́ Ḕ Ê Ē̂ Ḗ Ī̀ Î Ī̂ Ī́ Ṑ Ô Ō̂ Ṓ Ū̀ Û Ū̂ Ū́ : all combinations for Vedic accents
+
     } else if (localStorage.getItem("transliterate") == "HK") {
       latinToDevanagari = {
         0: "०",
@@ -1066,10 +1083,17 @@ function transliterate() {
         fa: "फ़",
         Wa: "व़",
         S̤a: "स़",
-        H̤a: "ह़",
-        "̍": "\u0951",
-        "̱": "\u0952",
+        H̤a: "ह़", 
+        "̍": "\u0951", 
+        "\u0301": "\u0951", 
+        "̱": "\u0952", 
+        "\u0332": "\u0952", 
+        "\u1CF5": "\u1CF5", 
+        "\u1CF6": "\u1CF6", 
+        "\uA8EB": "\uA8EB"
       };
+      // Yajurveda Independent Svarita "_":"\u1CD7" ?
+      // Sāmaveda "1\\":"\uA8E1", "2\\":"\uA8E2", "3\\":"\uA8E1", "u\\":"\uA8EB", "r\\":"\uA8EF"
 
       diacritics = {
         ā: "ा",
@@ -1171,9 +1195,52 @@ function transliterate() {
         ō̃: "ō",
       };
 
-      textLa = textLa.toLowerCase();
+      textLa = textLa.toLowerCase()
+        .replaceAll("ˆ", "̍")
+        .replaceAll("^", "̍")
+        .replaceAll("á", "a\uA8EB")
+        .replaceAll("à", "a̱")
+        .replaceAll("à", "a̲")
+        .replaceAll("â", "a̍")
+        .replaceAll("é", "e\uA8EB")
+        .replaceAll("è", "e̱")
+        .replaceAll("è", "e̲")
+        .replaceAll("ê", "e̍")
+        .replaceAll("í", "i\uA8EB")
+        .replaceAll("ì", "i̱")
+        .replaceAll("ì", "i̲")
+        .replaceAll("î", "i̍")
+        .replaceAll("ó", "o\uA8EB")
+        .replaceAll("ò", "o̱")
+        .replaceAll("ò", "o̲")
+        .replaceAll("ô", "o̍")
+        .replaceAll("ú", "o\uA8EB")
+        .replaceAll("ù", "u̱")
+        .replaceAll("ù", "u̲")
+        .replaceAll("û", "u̍")
+        .replaceAll("ā́", "ā\uA8EB")
+        .replaceAll("ā̀", "ā̱")
+        .replaceAll("ā̀", "ā̲")
+        .replaceAll("ā̂", "ā̍")
+        .replaceAll("ḗ", "ē\uA8EB")
+        .replaceAll("ḕ", "ē̱")
+        .replaceAll("ḕ", "ē̲")
+        .replaceAll("ē̂", "ē̍")
+        .replaceAll("ī́", "ī\uA8EB")
+        .replaceAll("ī̀", "ī̱")
+        .replaceAll("ī̀", "ī̲")
+        .replaceAll("ī̂", "ī̍")
+        .replaceAll("ṓ", "ō\uA8EB")
+        .replaceAll("ṑ", "ō̱")
+        .replaceAll("ṑ", "ō̲")
+        .replaceAll("ō̂", "ō̍")
+        .replaceAll("ū́", "ū\uA8EB")
+        .replaceAll("ū̀", "ū̱")
+        .replaceAll("ū̀", "ū̲")
+        .replaceAll("ū̂", "ū̍");
 
-      // TODO : Vedic accents not encoded ?
+      // When required : Ā̀ Â Ā̂ Ā́ Ḕ Ê Ē̂ Ḗ Ī̀ Î Ī̂ Ī́ Ṑ Ô Ō̂ Ṓ Ū̀ Û Ū̂ Ū́ : all combinations for Vedic accents
+
     }
 
     for (let u = 0; u < textLa.length; u++) {
@@ -1619,12 +1686,13 @@ function transliterate() {
       X: "X",
       Y: "Y",
       Z: "Z",
-      "॰": ".",
-      "\u0951": "̍",
-      "\u0952": "̱",
-      "\u1ce0": "\u1ce0",
-      "\u1CF5": "\u1CF5",
-      "\u1CF6": "\u1CF6",
+      "॰": ".", 
+      "\u0951": "ˆ", 
+      "\u0952": "̱", 
+      "\u0952": "\u0332", 
+      "\u1CF5": "\u1CF5", 
+      "\u1CF6": "\u1CF6", 
+      "\uA8EB": "\u0301"
     };
 
     const swaras = [
