@@ -252,9 +252,11 @@ function transliterate() {
         ō̃: "ोँ",
       };
 
-      // TODO - const vedicAccents = {"\u0951":"\u0951", "\u0952":"\u0952", "\u1ce0":"\u1ce0", "\u1CF5":"\u1CF5", "\u1CF6":"\u1CF6"}
-
-      anuswaraEndings = ["ṁ", "ṇ", "ṅ", "ñ", "n", "m"];
+      if (localStorage.getItem("strict") == "false") {
+        anuswaraEndings = ['ṁ'];
+      } else {
+        anuswaraEndings = ['ṁ', 'ṇ', 'ṅ', 'ñ', 'n', 'm'];
+      }
 
       letterAfterAnuswara = [
         "k",
@@ -506,7 +508,11 @@ function transliterate() {
         ō̃: "ोँ",
       };
 
-      anuswaraEndings = ["ṁ", "ṇ", "ṅ", "ñ", "n", "m"];
+      if (localStorage.getItem("strict") == "false") {
+        anuswaraEndings = ['ṁ'];
+      } else {
+        anuswaraEndings = ['ṁ', 'ṇ', 'ṅ', 'ñ', 'n', 'm'];
+      }
 
       letterAfterAnuswara = [
         "k",
@@ -572,7 +578,6 @@ function transliterate() {
         .replaceAll("S", "ṣ")
         .replaceAll("L", "ḷ");
 
-      // TODO : Vedic accents not encoded ?
     } else if (localStorage.getItem("transliterate") == "IAST") {
       latinToDevanagari = {
         0: "०",
@@ -829,7 +834,11 @@ function transliterate() {
         M̐: "ँ",
       };
 
-      anuswaraEndings = ["ṁ", "ṇ", "ṅ", "ñ", "n", "m"];
+      if (localStorage.getItem("strict") == "false") {
+        anuswaraEndings = ['ṁ'];
+      } else {
+        anuswaraEndings = ['ṁ', 'ṇ', 'ṅ', 'ñ', 'n', 'm'];
+      }
 
       letterAfterAnuswara = [
         "k",
@@ -888,7 +897,6 @@ function transliterate() {
         .replaceAll("Ḻ", "Ḷ")
         .replaceAll("ḻ", "ḷ");
 
-      // TODO - Vedic accent not encoded ?
     } else if (localStorage.getItem("transliterate") == "ISO") {
       // Transliteration for Sanskrit (ISO 15919) : https://en.wikipedia.org/wiki/ISO_15919
 
@@ -1156,7 +1164,11 @@ function transliterate() {
         M̐: "ँ",
       };
 
-      anuswaraEndings = ["ṁ", "ṇ", "ṅ", "ñ", "n", "m"];
+      if (localStorage.getItem("strict") == "false") {
+        anuswaraEndings = ['ṁ'];
+      } else {
+        anuswaraEndings = ['ṁ', 'ṇ', 'ṅ', 'ñ', 'n', 'm'];
+      }
 
       letterAfterAnuswara = [
         "k",
@@ -2029,6 +2041,25 @@ function typeOfTransliteration(type) {
   transliterate();
 }
 
+function strictNasalisation() {
+  if (localStorage.getItem("strict") && localStorage.getItem("strict") == "true") {
+    document.getElementById("nasalisation").classList.remove('isoNasal');
+    document.getElementById("nasalisation").classList.add('isoWONasal');
+    document.getElementById("nasalisation").title = "Without Strict Nasalisation";
+    localStorage.setItem("strict", "false");
+    transliterate();
+  } else if (localStorage.getItem("strict") && localStorage.getItem("strict") == "false") {
+    document.getElementById("nasalisation").classList.remove('isoWONasal');
+    document.getElementById("nasalisation").classList.add('isoNasal');
+    document.getElementById("nasalisation").title = "With Strict Nasalisation";
+    localStorage.setItem("strict", "true");
+    transliterate();
+  } else if (localStorage.getItem("transliterate") == "" || localStorage.getItem("transliterate") == undefined || localStorage.getItem("transliterate") == null) {
+    localStorage.setItem("transliterate", "ISO");
+    localStorage.setItem("strict", "true");
+  }
+}
+
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 document.getElementById("textarea1").focus();
@@ -2040,6 +2071,7 @@ if (
   localStorage.setItem("direction", "latin2devanagari");
   localStorage.setItem("encoding", "Latin");
   localStorage.setItem("transliterate", "ISO");
+  localStorage.setItem("strict", "true");
 } else if (
   localStorage.getItem("direction") != "devanagari2latin" &&
   localStorage.getItem("direction") != "latin2devanagari"
