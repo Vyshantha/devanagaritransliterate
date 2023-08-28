@@ -154,6 +154,31 @@ li,
   margin-bottom: -7px;
 }
 
+.isoNasal {
+  display:inline-block;
+  color:#867d7d;
+  border:1px solid #CCC;
+  background:#867d7d;
+  cursor:pointer;
+  max-width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+.isoNasal:active {
+  color:red;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+.isoWONasal {
+  display:inline-block;
+  color:#742222;
+  border:1px solid #CCC;
+  background:#742222;
+  cursor:pointer;
+  max-width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+
 .dropbtn {
   background-color: #d3cbcb;
   color: white;
