@@ -11,3 +11,6 @@ The languages ```Apabhramsha (अपभ्रंश), Angika (अंगिका
 
 - To change the transliteration direction i.e. to switch between Latin or Devanagari, click the swap icon  <img src="./swap-horiz-64.png" width="20px" height="20px" />  
 - To copy the contents of the either Latin or Devanagari text areas click the copy content icon  <img src="./content-copy-64.png" width="20px" height="20px" /> 
+
+# NPM Package 
+Available [here](https://www.npmjs.com/package/devanagari-transliterate)
