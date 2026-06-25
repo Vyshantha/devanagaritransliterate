@@ -1426,8 +1426,20 @@ function transliterate() {
               latinToDevanagari[textLa[u - 1] + textLa[u]];
           }
         } else {
-          resultSa =
-            resultSa.slice(0, -1) + diacritics[textLa[u - 1] + textLa[u]];
+          if (anuswaraEndings.indexOf(textLa[u]) > -1 && diacritics[textLa[u + 1]]) {
+            resultSa = 
+              resultSa.slice(0, -1) + 
+              latinToDevanagari[textLa[u] + 'a'] + diacritics[textLa[u + 1]];
+            u = u + 1;
+          } else if (diacritics[textLa[u + 1]]) {
+            resultSa = 
+              resultSa.slice(0, -1) + 
+              latinToDevanagari[textLa[u] + 'a'] + diacritics[textLa[u + 1]];
+            u = u + 1;
+          } else {
+            resultSa =
+              resultSa.slice(0, -1) + diacritics[textLa[u - 1] + textLa[u]];
+          }
         }
       } else if (
         !diacritics[textLa[u - 2]] &&
